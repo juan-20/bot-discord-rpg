@@ -1,0 +1,51 @@
+{
+  "name": "Discord-MusicBot",
+  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "repository": "https://github.com/SudhanPlayz/Discord-MusicBot",
+  "logo": "https://cdn.discordapp.com/avatars/750613142488481843/e6326038dbe2243ca551ba5b6ecd8bf2.png?size=1024",
+  "keywords": [
+    "node",
+    "discord",
+    "youtube",
+    "music",
+    "bot",
+    "lavalink",
+    "dashboard"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "Prefix": {
+      "description": "The Discord Bot Prefix",
+      "required": "true"
+    },
+    "Token": {
+      "description": "MTA2MTc4NTYzNTIwNTE1NjkyNA.GPBuPQ.Lw_BlaQLz2WYvBskcLqkwH6MYd9T0m3myIw0is",
+      "required": "true"
+    },
+    "Discord_ClientID": {
+      "description": "1061785635205156924",
+      "required": "true"
+    },
+    "Discord_ClientSecret": {
+      "description": "r2CqDXU6XUiT-ZzQs-3hVIZtja77Eu2l",
+      "required": "true"
+    },
+    "Website": {
+      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "value": "http://localhost"
+    },
+    "Spotify_ClientID": {
+      "description": "1198bdac074c438680a27443523c0b88",
+      "required": "true"
+    },
+    "Spotify_ClientSecret": {
+      "description": "5a5fd60690454093ba18537af1cb1599",
+      "required": "true"
+    }
+  }
+}
